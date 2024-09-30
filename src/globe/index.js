@@ -169,7 +169,8 @@ export default function initGlobe(root, options) {
         .pointOfView({
             lat: 27,
             lng: 81,
-        });
+        })
+        .lineHoverPrecision(0.5);
 
     renderer = globe.renderer();
     camera = globe.camera();
