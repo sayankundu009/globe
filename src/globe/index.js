@@ -164,7 +164,7 @@ export default function initGlobe(root, options) {
     ROOT = root;
 
     globe(root)
-        .globeImageUrl("./earth-texture.jpg")
+        .globeImageUrl("https://cdn.jsdelivr.net/gh/sayankundu009/globe/dist/earth-texture.jpg")
         .backgroundColor("#ffffff00")
         .pointOfView({
             lat: 27,
