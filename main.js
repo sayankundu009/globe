@@ -12,7 +12,6 @@ if (window.document.currentScript) {
 const root = document.getElementById(params.container || 'root-globe');
 
 if (root) {
-    console.log(params);
     try {
         initGlobe(root, {
             template: params.template || "globe-label-template",
